@@ -4,43 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Newsletter</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div>
-      <p>Newsletter Exclusiva</p>
-      <h1>Workspace inspiration</h1>
-      <p>
-        Assine nossa newsletter e transforme seu espaço de trabalho em um oásis
-        de produtividade
-      </p>
-      <form action="">
-        <input type="email" name="emailNews" id="emailNews" placeholder="Digite seu email" />
-        <button type="submit">QUERO RECEBER</button>
-      </form>
-    </div>
-    <div>
-        <ul>
-            <li>
-                <img src="./images/presente.svg" alt="">
-                <h2>As últimas inovações</h2>
-                <p>Mantenha-se atualizado com as mais recentes tecnologias e acessórios que vão revolucionar a forma como você trabalha.</p>
-            </li>
-            <li>
-                <img src="./images/ferramentas.svg" alt="">
-                <h2>Reviews detalhadas</h2>
-                <p>Analisamos os produtos mais populares do mercado para que você possa fazer as escolhas certas.</p>
-            </li>
-            <li>
-                <img src="./images/raio.svg" alt="">
-                <h2>Dicas de organização</h2>
-                <p>Aumente sua eficiência e proteja sua saúde com conselhos especializados sobre ergonomia e organização.</p>
-            </li>
-            <li>
-                <img src="./images/foguete.svg" alt="">
-                <h2>Ofertas exclusivas</h2>
-                <p>Como membro da nossa comunidade, você terá acesso a descontos e promoções especiais em produtos selecionados.</p>
-            </li>
-        </ul>
+    <div class="container">
+        <div class="content">
+            <p class="tagline">NEWSLETTER EXCLUSIVA</p>
+            <h1>Workspace inspiration</h1>
+            <p class="paragraph-18">
+                Assine nossa newsletter e transforme seu espaço de trabalho em um oásis de produtividade
+            </p>
+            <form action="">
+                <input type="email" name="emailNews" id="emailNews" placeholder="Digite seu email" />
+                <button type="submit">QUERO RECEBER <img src="/images/seta.svg" alt=""></button>
+            </form>
+        </div>
+        <div class="itens">
+            <ul>
+                <li>
+                    <img src="./images/presente.svg" alt="">
+                    <h2>As últimas inovações</h2>
+                    <p class="paragraph-14">Mantenha-se atualizado com as mais recentes tecnologias e acessórios que vão revolucionar a forma como você trabalha.</p>
+                </li>
+                <li>
+                    <img src="./images/ferramentas.svg" alt="">
+                    <h2>Reviews detalhadas</h2>
+                    <p class="paragraph-14">Analisamos os produtos mais populares do mercado para que você possa fazer as escolhas certas.</p>
+                </li>
+                <li>
+                    <img src="./images/raio.svg" alt="">
+                    <h2>Dicas de organização</h2>
+                    <p class="paragraph-14">Aumente sua eficiência e proteja sua saúde com conselhos especializados sobre ergonomia e organização.</p>
+                </li>
+                <li>
+                    <img src="./images/foguete.svg" alt="">
+                    <h2>Ofertas exclusivas</h2>
+                    <p class="paragraph-14">Como membro da nossa comunidade, você terá acesso a descontos e promoções especiais em produtos selecionados.</p>
+                </li>
+            </ul>
+        </div>
     </div>
   </body>
 </html>
